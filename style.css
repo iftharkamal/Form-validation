@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 215, 216);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.logo h4{
+    color: blue;
+    font-size: 30px;
+}
+.lists{
+    display: flex;
+    gap: 30px;
+   
+}
+.lists a{
+    text-decoration: none;
+    color: blue;
+}
+.login{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.384);
+}
+.login-sec a {
+    text-decoration: none;
+    color: blue;
+}
+.Signup{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.296);
+}
+.Signup a{
+    color: #fff;
+}
